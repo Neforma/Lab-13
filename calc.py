@@ -4,9 +4,8 @@ while True:
     except ValueError:
         print("Вы ввели не число. Попробуйте снова.")
     else:
-        print('Выберите операцию:')
         print('', 'Сложение: +', '\n', 'Вычитание: -', '\n', 'Умножение: *', '\n', 'Деление: /')
-        oper = input()
+        oper = input('Выберите операцию: ')
 
         if oper == '+':
             print(f'Сложение: {num1} + {num2} = {num1 + num2}')
